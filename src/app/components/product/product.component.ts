@@ -8,7 +8,7 @@ import { ProductService } from 'src/app/services/product.service';
   styleUrls: ['./product.component.css'],
 })
 export class ProductComponent implements OnInit {
-  
+
   products: Product[] = [];
   dataLoaded = false;
 
@@ -25,3 +25,5 @@ export class ProductComponent implements OnInit {
     });
   }
 }
+
+

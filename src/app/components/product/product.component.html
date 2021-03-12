@@ -4,7 +4,7 @@
   role="status">
   <span class="visually-hidden">Loading...</span>
 </div>
-<table class="table">
+<table *ngIf="dataLoaded != false" class="table">
   <thead>
     <tr>
       <th>Product Id</th>

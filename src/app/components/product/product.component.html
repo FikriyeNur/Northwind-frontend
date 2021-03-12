@@ -6,11 +6,13 @@
 </div>
 <table class="table">
   <thead>
-    <td>Product Id</td>
-    <td>Product Name</td>
-    <td>Category Id</td>
-    <td>Unit Price</td>
-    <td>Units In Stock</td>
+    <tr>
+      <th>Product Id</th>
+      <th>Product Name</th>
+      <th>Category Id</th>
+      <th>Unit Price</th>
+      <th>Units In Stock</th>
+    </tr>
   </thead>
   <tr *ngFor="let product of products">
     <td>{{ product.productId }}</td>
